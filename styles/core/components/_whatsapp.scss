@@ -1,0 +1,16 @@
+/* Whatsapp */
+@layer components {
+    .whatsapp {
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+        display: flex;
+        width: 45px;
+        background-color: green;
+        height: 45px;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+        z-index: 1000;
+    }
+}
