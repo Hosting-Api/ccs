@@ -1,4 +1,11 @@
 import React from "react";
+import post from '../../public/post.jpg';
+import reel from '../../public/reel.jpg';
+import account from '../../public/account.jpg';
+import photoshoot from '../../public/photoshoot.jpg';
+import website from '../../public/website.avif';
+import meeting from '../../public/meeting.avif';
+
 import {
     Card,
     CardBody,
@@ -15,7 +22,7 @@ const Services = () => {
                 <Card className="col-span-1 text-primary-900">
                     <CardBody className="w-full bg-white-600/20 p-12">
                         <CardImage
-                            src="/post.jpg"
+                            src={post}
                             alt="Customizable Layouts image used."
                         />
                         <CardHeader className="!text-black !text-2xl !font-bold">
@@ -33,7 +40,7 @@ const Services = () => {
                 <Card className="col-span-1 text-primary-900">
                     <CardBody className="w-full bg-white-600/20 p-12">
                         <CardImage
-                            src="/reel.jpg"
+                            src={reel}
                             alt="Customizable Layouts image used."
                         />
                         <CardHeader className="!text-black !text-2xl !font-bold">
@@ -51,7 +58,7 @@ const Services = () => {
                 <Card className="col-span-1 text-primary-900">
                     <CardBody className="w-full bg-white-600/20 p-12">
                         <CardImage
-                            src="/account.jpg"
+                            src={account}
                             alt="Progress Tracking image used."
                         />
                         <CardHeader className="!text-black !text-2xl !font-bold">
@@ -70,7 +77,7 @@ const Services = () => {
                 <Card className="col-span-1 text-primary-900">
                     <CardBody className="w-full bg-white-600/20 p-12">
                         <CardImage
-                            src="/photoshoot.jpg"
+                            src={photoshoot}
                             alt="Progress Tracking image used."
                         />
                         <CardHeader className="!text-black !text-2xl !font-bold">
@@ -89,7 +96,7 @@ const Services = () => {
                 <Card className="col-span-1 text-primary-900">
                     <CardBody className="w-full bg-white-600/20 p-12">
                         <CardImage
-                            src="/website.avif"
+                            src={website}
                             alt="Progress Tracking image used."
                         />
                         <CardHeader className="!text-black !text-2xl !font-bold">
@@ -107,7 +114,7 @@ const Services = () => {
                 <Card className="col-span-1 text-primary-900">
                     <CardBody className="w-full bg-white-600/20 p-12">
                         <CardImage
-                            src="/meeting.avif"
+                            src={meeting}
                             alt="Progress Tracking image used."
                         />
                         <CardHeader className="!text-black !text-2xl !font-bold">
