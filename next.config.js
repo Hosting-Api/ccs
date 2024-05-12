@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    reactStrictMode: true,
+    reactStrictMode: false,
         images: {
           formats: ["image/avif", "image/webp"],
-          domains: ["s.gravatar.com"]
+          
       },
     
   }
