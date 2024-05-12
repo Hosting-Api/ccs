@@ -12,7 +12,7 @@ const ContentImageData = [
         title: "Dairyland Navsari",
         content: "A dairy farm in Navsari",
         align: "right",
-        image: {w1},
+        image: w1,
         href: "https://www.instagram.com/dairyland_navsari?igsh=dm9rNXJ4OHZ3NTZq"
     },
     {
@@ -20,7 +20,7 @@ const ContentImageData = [
         title: "Aroma Health & Wellness",
         content: "A massage parlor in Parle Point, Surat",
         align: "right",
-        image: {w2},
+        image: w2,
         href: "https://www.instagram.com/aroma_health_wellness?igsh=YWRqaGhxdHppdGNw"
     },
     {
@@ -28,7 +28,7 @@ const ContentImageData = [
         title: "The Natural Kitchen",
         content: "A restaurant in Surat",
         align: "right",
-        image: {w3},
+        image: w3,
         href: "https://www.instagram.com/the_natural_kitchen_restro?igsh=MTVzaTY0enZhczhzdw=="
     }
 ];
