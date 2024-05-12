@@ -16,84 +16,6 @@ import {
     faLinkedinIn
 } from "@fortawesome/free-brands-svg-icons";
 
-const DATA = [
-    {
-        title: "Company",
-        items: [
-            {
-                label: "About",
-                href: "#",
-                target: "_self"
-            },
-            {
-                label: "Services",
-                href: "/#services",
-                target: "_self"
-            },
-            {
-                label: "Contact",
-                href: "/#contact",
-                target: "_self"
-            }
-        ]
-    },
-    {
-        title: "Social",
-        items: [
-            {
-                label: "LinkedIn",
-                href: "#",
-                target: "_blank"
-            },
-            {
-                label: "Twitter",
-                href: "#",
-                target: "_blank"
-            },
-            {
-                label: "Instagram",
-                href: "#",
-                target: "_blank"
-            },
-            {
-                label: "Facebook",
-                href: "#",
-                target: "_blank"
-            }
-        ]
-    },
-    {
-        title: "Contact",
-        items: [
-            {
-                label: "Phone : +917984175557",
-                // label: (
-                //     <FontAwesomeIcon
-                //         icon={faPhone}
-                //         style={{ height: "18px" }}
-                //     />
-                // ),
-
-                href: "tel:+917984175557",
-                target: "_blank"
-            },
-            {
-                label: "Email : creativecloudsolutionsccs@gmail.com",
-                // label: (
-                //     <FontAwesomeIcon
-                //         icon={faEnvelope}
-                //         label="Email"
-                //         style={{ marginRight: "5px", height: "18px" }}
-                //     />
-                // ),
-
-                href: "mailto:creativecloudsolutionsccs@gmail.com",
-                target: "_blank"
-            }
-        ]
-    }
-];
-
 export const Footer = () => {
     const date = new Date();
     const year = date.getFullYear();
@@ -104,7 +26,7 @@ export const Footer = () => {
                 <center>
                     <div className="footer-column">
                         <a href="#">
-                            <img
+                            <Image
                                 src="/logo.png"
                                 alt="Your Logo"
                                 height={130}
