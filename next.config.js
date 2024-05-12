@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     basePath: '/ccs',
-images: {
+Images: {
         formats: ["image/avif", "image/webp"],
     },
-    reactStrictMode: false,
+    reactStrictMode: true,
         
     
   }
