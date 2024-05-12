@@ -6,7 +6,7 @@ import { SectionContainer } from "@components/Section";
 import { PageTitle } from "@components/Title";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
-import bann from '../public/bann.png'
+import bann from '../../public/bann.png'
 
 export const HomeBanner = () => {
     return (
