@@ -3,8 +3,8 @@ import post from '../../public/post.jpg';
 import reel from '../../public/reel.jpg';
 import account from '../../public/account.jpg';
 import photoshoot from '../../public/photoshoot.jpg';
-import website from '../../public/website.avif';
-import meeting from '../../public/meeting.avif';
+import website from '../../public/website.jpg';
+// import meeting from '../../public/meeting.avif';
 
 import {
     Card,
@@ -114,7 +114,7 @@ const Services = () => {
                 <Card className="col-span-1 text-primary-900">
                     <CardBody className="w-full bg-white-600/20 p-12">
                         <CardImage
-                            src={meeting}
+                            src={website}
                             alt="Progress Tracking image used."
                         />
                         <CardHeader className="!text-black !text-2xl !font-bold">
