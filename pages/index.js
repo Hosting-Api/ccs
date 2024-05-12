@@ -15,7 +15,7 @@ import { Footer } from "@components/Footer";
 // import Plans from "@components/Plans/Plans";
 import Work from "@components/Work/Work";
 import Services from "@components/Services/Services";
-import Whatsapp from "@components/Whatsapp/Whatsapp";
+// import Whatsapp from "@components/Whatsapp/Whatsapp";
 import { Button } from "@components/Button";
 import Whats from "@components/Whatsapp/Whats";
 const phoneNumber = "+917984175557";
@@ -126,13 +126,10 @@ export default function Home() {
                             {/* <Accordion /> */}
                         </SectionContainer>
                     </MotionBTTContainer>
+
                     {/* Whatsapp Button */}
                     <Whats />
-                    {/* <Whatsapp
-                        // style={{ zIndex: "5" }}
-                        phoneNumber={phoneNumber}
-                        className="footer--zlogo grid gap-8 -10"
-                    /> */}
+                   
                     <Contact />
                 </SectionContainer>
             </div>
