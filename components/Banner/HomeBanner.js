@@ -6,6 +6,7 @@ import { SectionContainer } from "@components/Section";
 import { PageTitle } from "@components/Title";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
+import bann from '../public/bann.png'
 
 export const HomeBanner = () => {
     return (
@@ -51,7 +52,7 @@ export const HomeBanner = () => {
                     <div className="page-banner--image">
                         <Image
                             // src="/nutritrack-hero-banner.png"
-                            src="/bann.png"
+                            src={bann}
                             width={1024}
                             height={680}
                             alt="Page Banner"
