@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ButtonGroup } from "@components/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import logo from '../../public/logo.png'
 import {
     faAlignCenter,
     faEnvelope,
@@ -27,7 +28,7 @@ export const Footer = () => {
                     <div className="footer-column">
                         <a href="#">
                             <Image
-                                src="/logo.png"
+                                src={logo}
                                 alt="Your Logo"
                                 height={130}
                                 width={130}
