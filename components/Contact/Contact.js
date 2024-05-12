@@ -14,7 +14,7 @@ export const Contact = () => {
         e.preventDefault();
 
         // replace this with your own unique endpoint URL
-        fetch("https://formcarry.com/s/TG4QKyFnneb", {
+        fetch("https://formcarry.com/s/KslMOOrYdcx", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
