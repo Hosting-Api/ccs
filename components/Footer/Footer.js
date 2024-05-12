@@ -76,7 +76,7 @@ export const Footer = () => {
                                             height: "18px"
                                         }}
                                     />
-                                    +1234567890
+                                    +917984175557
                                 </a>
                             </li>
                             {/* <li>Address: 123 Street, City</li> */}
