@@ -2,9 +2,9 @@
 const nextConfig = {
     images: {
         formats: ["image/avif", "image/webp"],
-        domains: ["s.gravatar.com"]
+        
     },
-    reactStrictMode: true,
+    reactStrictMode: false,
         
     
   }
