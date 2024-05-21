@@ -87,7 +87,7 @@ export const Footer = () => {
                             <b>Follow Us</b>
                         </h5>
                         <div className="social-links">
-                            <a href="https://instagram.com">
+                            <a href="https://www.instagram.com/creative_cloud_solutions">
                                 <FontAwesomeIcon
                                     icon={faInstagram}
                                     style={{
@@ -95,7 +95,7 @@ export const Footer = () => {
                                     }}
                                 />
                             </a>
-                            <a href="https://facebook.com">
+                            <a href="https://www.facebook.com/profile.php?id=61558159500154">
                                 <FontAwesomeIcon
                                     icon={faFacebook}
                                     style={{
@@ -103,7 +103,7 @@ export const Footer = () => {
                                     }}
                                 />
                             </a>
-                            <a href="https://twitter.com">
+                            <a href="https://www.linkedin.com/in/creative-cloud-solutions-264531300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
                                 <FontAwesomeIcon
                                     icon={faLinkedinIn}
                                     style={{
