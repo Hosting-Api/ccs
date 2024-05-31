@@ -51,7 +51,7 @@ const slides = [
         link: "#"
     },
     {
-        image: "/images/aroma-spa-logo.png",
+        image: "/LOGOS/13.png",
         link: "#"
     },
     {

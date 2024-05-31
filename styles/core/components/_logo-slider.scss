@@ -1,0 +1,101 @@
+// @layer components {
+//     .carousel {
+//         overflow: hidden;
+//         width: 600px;
+//     }
+//     .wrap {
+//         display: grid;
+//         grid-auto-flow: column;
+//         grid-auto-columns: 250px;
+//         justify-items: stretch;
+//         animation: slide 15s linear infinite;
+//     }
+//     @keyframes slide {
+//         to {
+//             translate: calc(-4 * 250px);
+//         }
+//     }
+// }
+// @keyframes slide {
+//     from {
+//         transform: translateX(0);
+//     }
+//     to {
+//         transform: translateX(-100%);
+//     }
+// }
+
+// .logos {
+//     overflow: hidden;
+//     padding: 60px 0;
+//     background: white;
+//     white-space: nowrap;
+//     position: relative;
+// }
+
+// .logos:before,
+// .logos:after {
+//     position: absolute;
+//     top: 0;
+//     width: 250px;
+//     height: 100%;
+//     content: "";
+//     z-index: 2;
+// }
+
+// .logos:before {
+//     left: 0;
+//     background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+// }
+
+// .logos:after {
+//     right: 0;
+//     background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+// }
+
+// .logos:hover .logos-slide {
+//     animation-play-state: paused;
+// }
+
+// .logos-slide {
+//     display: inline-block;
+//     animation: 20s slide infinite linear;
+// }
+
+// .logos-slide img {
+//     height: 50px;
+//     margin: 0 80px;
+// }
+
+// .slider-container {
+//     width: 100%; /* Adjust the width as needed */
+//     max-width: 700px; /* Optional: Set a maximum width */
+//     margin: 0 auto; /* Center the slider */
+// }
+
+// .slide {
+//     padding: 0 10px; /* Adjust the padding as needed */
+// }
+
+// .slide-image {
+//     width: 100%;
+//     height: auto;
+//     display: block;
+//     margin: 0 20; /* Center the image */
+// }
+
+// .slider-container {
+//     width: 100%; /* Adjust the width to be responsive */
+//     margin: 0 auto; /* Center the slider */
+// }
+
+// .slide {
+//     padding: 0 10px; /* Adjust the padding as needed */
+// }
+
+// .slide-image {
+//     width: 100%;
+//     height: auto;
+//     display: block;
+//     margin: 0 auto; /* Center the image */
+// }
