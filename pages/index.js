@@ -11,9 +11,7 @@ import { MotionBTTContainer } from "@components/Motion";
 import { Contact } from "@components/Contact";
 import SEO from "@components/SEO/SEO";
 import { Footer } from "@components/Footer";
-
 import LogoSlider from "@components/LogoSlider/LogoSlider";
-
 
 // import Plans from "@components/Plans/Plans";
 import Work from "@components/Work/Work";
@@ -95,13 +93,15 @@ export default function Home() {
                         <SectionContainer id="clients" className="benefits">
                             <BadgeGroup alignment="center">
                                 <BadgeMessage>Our Clients</BadgeMessage>
-                        <SectionContainer
-                            id="testimonials"
-                            className="benefits"
-                        >
-                            <BadgeGroup alignment="center">
-                                <BadgeMessage>Testimonials</BadgeMessage>
-                                {/* <BadgeIcon icon="twemoji:waving-hand" /> */}
+                                {/* <SectionContainer
+                                    id="testimonials"
+                                    className="benefits"
+                                > */}
+                                {/* <BadgeGroup alignment="center">
+                                        <BadgeMessage>
+                                            Testimonials
+                                        </BadgeMessage>
+                                        {/* <BadgeIcon icon="twemoji:waving-hand" /> */}
                             </BadgeGroup>
                             <PageTitle
                                 className="text-center mx-auto"
@@ -112,9 +112,10 @@ export default function Home() {
                             </PageTitle>
                             {/* <Columns /> */}
                             <LogoSlider />
-                                This is what our customers say
-                            </PageTitle>
-                            <Columns />
+                            {/* </PageTitle> */}
+                            {/* <Columns /> */}
+                            {/* </SectionContainer> */}
+                            {/* </BadgeGroup> */}
                         </SectionContainer>
                     </MotionBTTContainer>
                     {/* Accordions */}
@@ -140,8 +141,6 @@ export default function Home() {
                     {/* Whatsapp Button */}
                     <Whats />
 
-
-                   
                     <Contact />
                 </SectionContainer>
             </div>
