@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+
 import { motion } from "framer-motion";
 
 const slides = [
@@ -89,7 +91,7 @@ const SliderDesign = () => {
                                 // target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <img
+                                <Image
                                     src={slide.image}
                                     // alt={`Slide ${index + 1}`}
                                     alt="img23949"
