@@ -74,7 +74,7 @@ const SliderDesign = () => {
                     x: ["0%", "-100%"],
                     transition: {
                         ease: "linear",
-                        duration: 60,
+                        duration: 45,
                         repeat: Infinity
                     }
                 }}
