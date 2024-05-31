@@ -31,11 +31,9 @@
         "@next/font": "^13.1.2",
         "@vercel/og": "^0.0.21",
         "eslint-config-next": "13.1.2",
-<<<<<<< HEAD
+
         "framer-motion": "^10.18.0",
-=======
-        "framer-motion": "^10.11.2",
->>>>>>> 03eee1d9b93abb136873fe600cc173ae5ce31349
+
         "micro-cors": "^0.1.1",
         "next": "^13.1.2",
         "next-secure-headers": "^2.2.0",
