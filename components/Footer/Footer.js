@@ -3,7 +3,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { ButtonGroup } from "@components/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+<<<<<<< HEAD
 import logo from "../../public/logo.png";
+=======
+import logo from '../../public/logo.png'
+>>>>>>> 03eee1d9b93abb136873fe600cc173ae5ce31349
 import {
     faAlignCenter,
     faEnvelope,

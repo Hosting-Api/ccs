@@ -11,7 +11,10 @@ import { MotionBTTContainer } from "@components/Motion";
 import { Contact } from "@components/Contact";
 import SEO from "@components/SEO/SEO";
 import { Footer } from "@components/Footer";
+<<<<<<< HEAD
 import LogoSlider from "@components/LogoSlider/LogoSlider";
+=======
+>>>>>>> 03eee1d9b93abb136873fe600cc173ae5ce31349
 
 // import Plans from "@components/Plans/Plans";
 import Work from "@components/Work/Work";
@@ -90,9 +93,18 @@ export default function Home() {
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
+<<<<<<< HEAD
                         <SectionContainer id="clients" className="benefits">
                             <BadgeGroup alignment="center">
                                 <BadgeMessage>Our Clients</BadgeMessage>
+=======
+                        <SectionContainer
+                            id="testimonials"
+                            className="benefits"
+                        >
+                            <BadgeGroup alignment="center">
+                                <BadgeMessage>Testimonials</BadgeMessage>
+>>>>>>> 03eee1d9b93abb136873fe600cc173ae5ce31349
                                 {/* <BadgeIcon icon="twemoji:waving-hand" /> */}
                             </BadgeGroup>
                             <PageTitle
@@ -100,10 +112,16 @@ export default function Home() {
                                 type="default"
                                 alignment="center"
                             >
+<<<<<<< HEAD
                                 Our Clients
                             </PageTitle>
                             {/* <Columns /> */}
                             <LogoSlider />
+=======
+                                This is what our customers say
+                            </PageTitle>
+                            <Columns />
+>>>>>>> 03eee1d9b93abb136873fe600cc173ae5ce31349
                         </SectionContainer>
                     </MotionBTTContainer>
                     {/* Accordions */}
@@ -128,7 +146,11 @@ export default function Home() {
 
                     {/* Whatsapp Button */}
                     <Whats />
+<<<<<<< HEAD
 
+=======
+                   
+>>>>>>> 03eee1d9b93abb136873fe600cc173ae5ce31349
                     <Contact />
                 </SectionContainer>
             </div>
