@@ -74,7 +74,7 @@ const SliderDesign = () => {
                     x: ["0%", "-100%"],
                     transition: {
                         ease: "linear",
-                        duration: 50,
+                        duration: 60,
                         repeat: Infinity
                     }
                 }}
@@ -83,7 +83,7 @@ const SliderDesign = () => {
                     <div
                         key={index}
                         className="flex-shrink-0"
-                        style={{ width: `${300 /  slides.length}%` }}
+                        style={{ width: `${250 /  slides.length}%` }}
                     >
                         <div className="flex items-center justify-center h-full py-4  ">
                             <a
