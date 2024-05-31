@@ -83,7 +83,7 @@ const SliderDesign = () => {
                     <div
                         key={index}
                         className="flex-shrink-0"
-                        style={{ width: `${200 / (1 * slides.length)}%` }}
+                        style={{ width: `${300 /  slides.length}%` }}
                     >
                         <div className="flex items-center justify-center h-full py-4  ">
                             <a
