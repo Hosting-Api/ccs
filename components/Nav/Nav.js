@@ -9,11 +9,10 @@ const navigation = [
     { name: "Services", to: "#services", href: "/#services" },
     { name: "Our Work", to: "#work", href: "/#work" },
     // { name: "Plans", to: "#plans", href: "/#plans" },
-<<<<<<< HEAD
+
     { name: "Our Clients", to: "#clients", href: "/#clients" },
-=======
-    { name: "Testimonials", to: "#testimonials", href: "/#testimonials" },
->>>>>>> 03eee1d9b93abb136873fe600cc173ae5ce31349
+
+
     { name: "Contact", to: "#contact", href: "/#contact" }
 
     // {
