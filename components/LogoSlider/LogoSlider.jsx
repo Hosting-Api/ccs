@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-
 import { motion } from "framer-motion";
 
 const slides = [
@@ -66,8 +65,8 @@ const LogoSlider = () => {
     const duplicatedSlides = [...slides, ...slides];
 
     return (
-        <div className="relative h-full w-full overflow-hidden ">
-{/*         <div className="relative h-full w-full overflow-hidden py-12 bg-backgroundColorTertiary"> */}
+        // <div className="relative h-full w-full overflow-hidden py-12 bg-backgroundColorTertiary">
+        <div className="relative  w-full overflow-hidden ">
             <motion.div
                 className="flex"
                 animate={{
@@ -75,7 +74,7 @@ const LogoSlider = () => {
                     x: ["0%", "-100%"],
                     transition: {
                         ease: "linear",
-                        duration: 45,
+                        duration: 50,
                         repeat: Infinity
                     }
                 }}
@@ -84,7 +83,7 @@ const LogoSlider = () => {
                     <div
                         key={index}
                         className="flex-shrink-0"
-                        style={{ width: `${100 /  slides.length}%` }}
+                        style={{ width: `${300 / slides.length}%` }}
                     >
                         <div className="flex items-center justify-center h-full py-2  ">
                             <a
@@ -96,7 +95,7 @@ const LogoSlider = () => {
                                     src={slide.image}
                                     // alt={`Slide ${index + 1}`}
                                     alt="img23949"
-                                    className=""
+                                    className="max-h-full max-w-full"
                                     height={250}
                                     width={250}
                                 />
