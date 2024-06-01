@@ -96,7 +96,7 @@ const LogoSlider = () => {
                                     src={slide.image}
                                     // alt={`Slide ${index + 1}`}
                                     alt="img23949"
-{/*                                     className="max-h-full max-w-full" */}
+                                    className=""
                                     height={250}
                                     width={250}
                                 />
