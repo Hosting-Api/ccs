@@ -62,7 +62,7 @@ const slides = [
     }
 ];
 
-const SliderDesign = () => {
+const LogoSlider = () => {
     const duplicatedSlides = [...slides, ...slides];
 
     return (
@@ -109,4 +109,4 @@ const SliderDesign = () => {
     );
 };
 
-export default SliderDesign;
+export default LogoSlider;
