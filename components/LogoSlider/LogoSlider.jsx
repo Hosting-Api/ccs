@@ -66,7 +66,8 @@ const SliderDesign = () => {
     const duplicatedSlides = [...slides, ...slides];
 
     return (
-        <div className="relative h-full w-full overflow-hidden py-12 bg-backgroundColorTertiary">
+        <div className="relative h-full w-full overflow-hidden ">
+{/*         <div className="relative h-full w-full overflow-hidden py-12 bg-backgroundColorTertiary"> */}
             <motion.div
                 className="flex"
                 animate={{
@@ -85,7 +86,7 @@ const SliderDesign = () => {
                         className="flex-shrink-0"
                         style={{ width: `${100 /  slides.length}%` }}
                     >
-                        <div className="flex items-center justify-center h-full py-4  ">
+                        <div className="flex items-center justify-center h-full py-2  ">
                             <a
                                 href={slide.link}
                                 // target="_blank"
@@ -96,6 +97,8 @@ const SliderDesign = () => {
                                     // alt={`Slide ${index + 1}`}
                                     alt="img23949"
                                     className="max-h-full max-w-full"
+                                    height={250}
+                                    width={250}
                                 />
                             </a>
                         </div>
