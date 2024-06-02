@@ -83,7 +83,7 @@ const LogoSlider = () => {
                     <div
                         key={index}
                         className="flex-shrink-0"
-                        style={{ width: `${300 / slides.length}%` }}
+                        style={{ width: `${280 / slides.length}%` }}
                     >
                         <div className="flex items-center justify-center h-full py-2  ">
                             <a
