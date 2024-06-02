@@ -3,9 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ButtonGroup } from "@components/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import logo from '../../public/logo.png'
-
+import logo from "../../public/logo.png";
 import {
     faAlignCenter,
     faEnvelope,
@@ -25,9 +23,9 @@ export const Footer = () => {
 
     return (
         <footer style={{ backgroundColor: "white", color: "black" }}>
-            <div className="container">
+            <div className="container md:flex">
                 <center>
-                    <div className="footer-column">
+                    <div className="footer-column ">
                         <a href="#">
                             <Image
                                 src={logo}
@@ -40,7 +38,7 @@ export const Footer = () => {
                     <br />
                 </center>
                 <div className="footer-content">
-                    <div className="footer-column">
+                    <div className="footer-column w-auto">
                         <h5>
                             <b>Company</b>
                         </h5>
@@ -56,64 +54,100 @@ export const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="footer-column">
+                    <div className="footer-column w-auto">
                         <h5>
                             <b>Contact</b>
                         </h5>
                         <ul>
                             <li>
-                                <FontAwesomeIcon
-                                    icon={faEnvelope}
-                                    style={{
-                                        height: "18px"
-                                    }}
-                                />
-                                info@example.com
+                                <label htmlFor="Email">
+                                    <FontAwesomeIcon
+                                        icon={faEnvelope}
+                                        style={{
+                                            height: "22px"
+                                        }}
+                                    />
+                                </label>
+
+                                <span name="Email">
+                                    creativecloudsolutionsccs@gmail.com
+                                </span>
                             </li>
                             <li>
-                                <a>
+                                {/* <a> */}
+                                <label htmlFor="Phone">
                                     <FontAwesomeIcon
                                         icon={faPhone}
                                         style={{
-                                            height: "18px"
+                                            height: "22px"
                                         }}
                                     />
-                                    +917984175557
-                                </a>
+                                </label>
+                                <span name="Phone">
+                                    +917984175557 &nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                                </span>
+                                {/* </a> */}
                             </li>
-                            {/* <li>Address: 123 Street, City</li> */}
                         </ul>
                     </div>
-                    <div className="footer-column">
+                    <div className="footer-column w-auto">
                         <h5>
                             <b>Follow Us</b>
                         </h5>
-                        <div className="social-links">
-                            <a href="https://www.instagram.com/creative_cloud_solutions">
-                                <FontAwesomeIcon
-                                    icon={faInstagram}
-                                    style={{
-                                        height: "26px"
-                                    }}
-                                />
-                            </a>
-                            <a href="https://www.facebook.com/profile.php?id=61558159500154">
-                                <FontAwesomeIcon
-                                    icon={faFacebook}
-                                    style={{
-                                        height: "26px"
-                                    }}
-                                />
-                            </a>
-                            <a href="https://www.linkedin.com/in/creative-cloud-solutions-264531300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
-                                <FontAwesomeIcon
-                                    icon={faLinkedinIn}
-                                    style={{
-                                        height: "26px"
-                                    }}
-                                />
-                            </a>
-                        </div>
+                        <ul>
+                            <li>
+                                <a href="https://www.instagram.com/creative_cloud_solutions">
+                                    <label htmlFor="Insta">
+                                        <FontAwesomeIcon
+                                            icon={faInstagram}
+                                            style={{
+                                                height: "22px"
+                                            }}
+                                        />
+                                    </label>
+
+                                    <span name="Insta">
+                                        creative_cloud_solutions
+                                        &nbsp;&nbsp;&nbsp;&nbsp;
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/people/Creative-Cloud-Solution/61558159500154/">
+                                    <label htmlFor="FB">
+                                        <FontAwesomeIcon
+                                            icon={faFacebook}
+                                            style={{
+                                                height: "22px"
+                                            }}
+                                        />
+                                    </label>
+                                    <span name="FB">
+                                        Creative Cloud Solutions &nbsp;
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/creative-cloud-solutions-264531300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                                    <label htmlFor="LD">
+                                        <FontAwesomeIcon
+                                            icon={faLinkedinIn}
+                                            style={{
+                                                height: "22px"
+                                            }}
+                                        />
+                                    </label>
+                                    <span name="LD">
+                                        Creative Cloud Solutions &nbsp;
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -124,15 +158,19 @@ export const Footer = () => {
                 .container {
                     max-width: 1200px;
                     margin: 0 auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
                 }
                 .footer-content {
                     display: flex;
-                    justify-content: space-between;
-                    align-items: flex-start;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    width: 100%;
                 }
                 .footer-column {
-                    flex: 1;
-                    margin-right: 20px;
+                    margin-bottom: 15px;
                 }
                 .footer-column h4 {
                     margin-bottom: 10px;
@@ -144,29 +182,38 @@ export const Footer = () => {
                 }
                 .footer-column ul li {
                     margin-bottom: 5px;
-                    align-items: center;
                 }
-                .social-links a {
-                    margin-right: 10px;
+
+                label {
+                    float: left;
                 }
-                .social-links img {
-                    width: 30px;
-                    height: 30px;
+                span {
+                    display: block;
+                    overflow: hidden;
+                    padding: 0px 4px 0px 6px;
+                }
+                @media (min-width: 768px) {
+                    .footer-content {
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: flex-start;
+                        text-align: left;
+                    }
+                    .footer-column {
+                        flex: 1;
+                        margin-right: 65px;
+                        margin-bottom: 0;
+                        // width: auto;
+                    }
                 }
             `}</style>
-            {/* Footer Credits */}
-            <SectionContainer className="footer-credits relative ">
+            <SectionContainer className="footer-credits relative">
                 <div className="wrap wrap-px py-6">
                     <center>
-                        <p className="my-0">
-                            {/* © {year} All rights reserved{" - "} */}© {year}
-                            {" - "}
-                            All rights reserved
-                        </p>
+                        <p className="my-0">© {year} All rights reserved</p>
                     </center>
                 </div>
             </SectionContainer>
-            <div className="footer--background"></div>
         </footer>
     );
 };
